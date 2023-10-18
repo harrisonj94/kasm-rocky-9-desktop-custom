@@ -16,18 +16,10 @@ ENV SKIP_CLEAN=true \
     INST_DIR=$STARTUPDIR/install \
     INST_SCRIPTS="/oracle/install/tools/install_tools_deluxe.sh \
                   /oracle/install/misc/install_tools.sh \
-                  /ubuntu/install/chromium/install_chromium.sh \
-                  /ubuntu/install/firefox/install_firefox.sh \
+                  /ubuntu/install/chrome/install_chrome.sh \
                   /oracle/install/sublime_text/install_sublime_text.sh \
-                  /oracle/install/vs_code/install_vs_code.sh \
                   /ubuntu/install/remmina/install_remmina.sh \
                   /oracle/install/only_office/install_only_office.sh \
-                  /oracle/install/gimp/install_gimp.sh \
-                  /oracle/install/zoom/install_zoom.sh \
-                  /oracle/install/ansible/install_ansible.sh \
-                  /oracle/install/terraform/install_terraform.sh \
-                  /oracle/install/telegram/install_telegram.sh \
-                  /ubuntu/install/thunderbird/install_thunderbird.sh \
                   /ubuntu/install/cleanup/cleanup.sh"
 
 # Copy install scripts
